@@ -6,7 +6,7 @@ import PasswordText from './components/PasswordText';
 
 export default function App() {
   return (
-    <main className="w-full h-fit md:w-9/12 xl:w-4/12">
+    <main className="w-full h-fit md:w-9/12 lg:w-7/12 xl:w-5/12">
       <h1 className='font-bold text-2xl text-center mb-5'>Password generator</h1>
       <section className='border rounded-lg w-full'>
         <section className="w-full h-[10%] border-b-2 flex justify-between items-center gap-3 p-4">

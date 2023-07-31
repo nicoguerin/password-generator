@@ -12,7 +12,7 @@ export default function PasswordOptions() {
         <>
             <PasswordOption>
                 <label htmlFor="lengthInput">
-                    <OptionTitle>Password length: </OptionTitle>
+                    <OptionTitle>Length</OptionTitle>
                 </label>
                 <input
                     id="lengthInput"

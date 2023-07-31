@@ -9,7 +9,7 @@ export default function usePassword() {
         hasSymbols, setHasSymbols } = useContext(PasswordContext);
 
     const handleCopyPassword = () => {
-        if (generatedPassword.trim() === '') return toast.error("Error copying password to clipboard");
+        if (generatedPassword.trim() === '') return toast.error("You haven't generated any password!");
 
         window.navigator.clipboard.writeText(generatedPassword);
         toast.success("Password copied to clipboard");

@@ -6,7 +6,7 @@ export default function GenerateButton() {
     return (
         <button
             onClick={generatePassword}
-            className="bg-slate-200 p-2 rounded-lg font-semibold text-black"
+            className="bg-slate-200 p-2 rounded-lg font-semibold text-black text-sm sm:text-base"
         >
             Generate
         </button>
